@@ -1,0 +1,157 @@
+/* src/styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Container for the Product Form */
+.form-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff, #f7f7f7);
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.form button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form button:hover {
+  background: linear-gradient(135deg, #218838, #28a745);
+  transform: scale(1.02);
+}
+
+/* Container for the Product List */
+.list-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff, #f7f7f7);
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* List Button Styles */
+.list-container button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.list-container button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  transform: scale(1.02);
+}
+
+/* Product List Styles */
+.list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-container li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-container li img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.list-container li button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.list-container li button:first-of-type {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  margin-right: 10px;
+}
+
+.list-container li button:first-of-type:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
+
+.list-container li button:last-of-type {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+}
+
+.list-container li button:last-of-type:hover {
+  background: linear-gradient(135deg, #c82333, #dc3545);
+}
+/* src/styles.css */
+
+/* Button to view product list */
+.view-list-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+}
+
+.view-list-button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  transform: scale(1.02);
+}
